@@ -1,100 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🚀 Our Amazing Team Website</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚀 Our Amazing Team Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <h1 class="title-animation">🚀 Our Amazing Team</h1>
-            <p class="subtitle">Welcome to the coolest team website ever! Built with teamwork and Git magic ✨</p>
-            <div class="header-stats">
-                <div class="stat-item">
-                    <span class="stat-number" id="commits-count">0</span>
-                    <span class="stat-label">Git Commits</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number" id="members-count">1</span>
-                    <span class="stat-label">Team Members</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number" id="features-count">0</span>
-                    <span class="stat-label">Cool Features</span>
-                </div>
-            </div>
-        </header>
-        
-        <!-- Team Members Section -->
-        <section class="team-section">
-            <h2 class="section-title">👥 Meet Our Awesome Team</h2>
-            <p class="section-subtitle">
-                Each team member adds their own unique card - that's the power of collaboration! 🤝
-            </p>
-            
-            <div class="team-grid" id="team-grid">
-                <!-- Example team member card -->
-                <div class="team-member example-card">
-                    <div class="member-badge">Example</div>
-                    <img src="https://via.placeholder.com/120x120/667eea/ffffff?text=😊" alt="Team Member" class="member-image">
-                    <h3 class="member-name">Your Name Here</h3>
-                    <p class="member-role">🎯 Your Role</p>
-                    <div class="member-hobbies">
-                        🎮 Add your hobbies here!
-                    </div>
-                    <p class="member-fact">✨ Share a fun fact about yourself</p>
-                    <div class="member-skills">
-                    </div>
-                </div>
-
-                <!-- New team member cards will be added here -->
-                 
-            </div>
-
-        </section>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-main">
-                    <h2>🎉 Our Amazing Team Project</h2>
-                    <p>Built together with Git, GitHub, and lots of teamwork! 🚀</p>
-                </div>
-                
-                <div class="contact-grid">
-
-                </div>
-
-                <div class="footer-bottom">
-                    <p class="footer-text">
-                        Made with lots of Git commits, and amazing teamwork!
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-item">HTML5</span>
-                        <span class="tech-item">CSS3</span>
-                        <span class="tech-item">JavaScript</span>
-                        <span class="tech-item">Git</span>
-                        <span class="tech-item">GitHub</span>
-                    </div>
-                    
-
-                </div>
-            </div>
-        </footer>
-    </div>
-
-    <!-- Floating Git Tips -->
-    <div class="git-tip" id="git-tip">
-        <div class="tip-content">
-            <span class="tip-text">💡 Pro tip: Always pull before you push!</span>
-            <button class="tip-close" onclick="closeTip()">&times;</button>
+  <div class="container">
+    <!-- Header Section -->
+    <header class="header">
+      <h1 class="title-animation">🚀 Our Amazing Team</h1>
+      <p class="subtitle">Welcome to the coolest team website ever! Built with teamwork and Git magic ✨</p>
+      <div class="header-stats">
+        <div class="stat-item">
+          <span class="stat-number" id="commits-count">128</span>
+          <span class="stat-label">Git Commits</span>
         </div>
-    </div>
+        <div class="stat-item">
+          <span class="stat-number" id="members-count">4</span>
+          <span class="stat-label">Team Members</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" id="features-count">7</span>
+          <span class="stat-label">Cool Features</span>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Team Members Section -->
+    <section class="team-section">
+      <h2 class="section-title">👥 Meet Our Awesome Team</h2>
+      <p class="section-subtitle">
+        Each team member adds their own unique card - that's the power of collaboration! 🤝
+      </p>
+      
+      <div class="team-grid" id="team-grid">
+        
+        <!-- Member 1 -->
+        <div class="team-member">
+          <img src="https://via.placeholder.com/120x120/ff6b6b/ffffff?text=🚀" alt="Team Member" class="member-image">
+          <h3 class="member-name">Ghada Abdelwahed</h3>
+          <p class="member-role">💻 Developer</p>
+          <div class="member-hobbies">🎶 Music | 📚 Reading | ✈️ Travel</div>
+          <p class="member-fact">✨ Loves solving puzzles and writing clean code.</p>
+          <div class="member-skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">C</span>
+          </div>
+        </div>
 
-    <script src="js/main.js"></script>
+        <!-- Member 2 -->
+        <div class="team-member">
+          <img src="https://via.placeholder.com/120x120/1dd1a1/ffffff?text=⚡" alt="Team Member" class="member-image">
+          <h3 class="member-name">Adam Smith</h3>
+          <p class="member-role">🎨 UI/UX Designer</p>
+          <div class="member-hobbies">🎮 Gaming | 🎥 Movies | 🎨 Drawing</div>
+          <p class="member-fact">✨ Can sketch website layouts in less than 2 minutes.</p>
+          <div class="member-skills">
+            <span class="skill">Figma</span>
+            <span class="skill">Photoshop</span>
+            <span class="skill">CSS3</span>
+          </div>
+        </div>
+
+        <!-- Member 3 -->
+        <div class="team-member">
+          <img src="https://via.placeholder.com/120x120/54a0ff/ffffff?text=🛠️" alt="Team Member" class="member-image">
+          <h3 class="member-name">Sara Lee</h3>
+          <p class="member-role">⚙️ Backend Engineer</p>
+          <div class="member-hobbies">🍳 Cooking | 🏃 Running | 📸 Photography</div>
+          <p class="member-fact">✨ Loves optimizing databases and APIs.</p>
+          <div class="member-skills">
+            <span class="skill">Python</span>
+            <span class="skill">Django</span>
+            <span class="skill">SQL</span>
+          </div>
+        </div>
+
+        <!-- Member 4 -->
+        <div class="team-member">
+          <img src="https://via.placeholder.com/120x120/feca57/ffffff?text=🌟" alt="Team Member" class="member-image">
+          <h3 class="member-name">Mohamed Ali</h3>
+          <p class="member-role">🚀 Project Manager</p>
+          <div class="member-hobbies">⚽ Football | 🎧 Podcasts | 🌍 Exploring</div>
+          <p class="member-fact">✨ Believes in "teamwork makes the dream work".</p>
+          <div class="member-skills">
+            <span class="skill">Leadership</span>
+            <span class="skill">Agile</span>
+            <span class="skill">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-main">
+          <h2>🎉 Our Amazing Team Project</h2>
+          <p>Built together with Git, GitHub, and lots of teamwork! 🚀</p>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>team@amazingproject.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/amazingteam" target="_blank">GitHub Repo</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://linkedin.com/company/amazingteam" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-text">
+            Made with lots of Git commits, and amazing teamwork!
+          </p>
+          <div class="tech-stack">
+            <span class="tech-item">HTML5</span>
+            <span class="tech-item">CSS3</span>
+            <span class="tech-item">JavaScript</span>
+            <span class="tech-item">Git</span>
+            <span class="tech-item">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Floating Git Tips -->
+  <div class="git-tip" id="git-tip">
+    <div class="tip-content">
+      <span class="tip-text">💡 Pro tip: Always pull before you push!</span>
+      <button class="tip-close" onclick="closeTip()">&times;</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
